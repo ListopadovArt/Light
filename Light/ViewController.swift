@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var buttonOn = true
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         myFunction()
@@ -19,22 +19,24 @@ class ViewController: UIViewController {
     }
     
     fileprivate func myFunction() {
-        if buttonOn {
-            view.backgroundColor = .white
-            onButton.setTitle("OFF", for: .normal)
-        } else {
-            view.backgroundColor = .black
-            onButton.setTitle("ON", for: .normal)
-        }
+        view.backgroundColor = buttonOn ? .white : .black
+        
+        /* if buttonOn {
+         view.backgroundColor = .white
+         //  onButton.setTitle("OFF", for: .normal)
+         } else {
+         view.backgroundColor = .black
+         // onButton.setTitle("ON", for: .normal)
+         }
+         */
     }
     
     @IBAction func buttonPressed(_ sender: Any) {
         NSLog("buttonPressed");
         buttonOn.toggle()
-        
         myFunction()
     }
     
-    @IBOutlet weak var onButton: UIButton!
+    // @IBOutlet weak var onButton: UIButton!
 }
 

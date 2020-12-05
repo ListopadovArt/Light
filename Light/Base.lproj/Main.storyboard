@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Zz-Y4-9qF">
-                                <rect key="frame" x="162.5" y="422" width="89" height="52"/>
+                                <rect key="frame" x="160.5" y="422" width="93" height="52"/>
                                 <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="29"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="----------">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -29,18 +29,15 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="7Zz-Y4-9qF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aoI-d2-Xhf"/>
-                            <constraint firstItem="7Zz-Y4-9qF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qSs-RA-m10"/>
+                            <constraint firstItem="7Zz-Y4-9qF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="69u-CT-5mg"/>
+                            <constraint firstItem="7Zz-Y4-9qF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cxf-nm-eUj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="onButton" destination="7Zz-Y4-9qF" id="hew-e4-0g8"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="127"/>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
     </scenes>
 </document>
